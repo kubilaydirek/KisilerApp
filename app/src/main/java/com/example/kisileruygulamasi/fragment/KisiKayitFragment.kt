@@ -1,5 +1,6 @@
 package com.example.kisileruygulamasi.fragment
 
+import android.app.Activity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -20,6 +21,7 @@ class KisiKayitFragment : Fragment() {
         tasarim.buttonKaydet.setOnClickListener {
             val kisiAdi = tasarim.editTextKisiAd.text.toString();
             val kisiTel = tasarim.editTextKisiTel.text.toString();
+
         }
         return tasarim.root
     }
